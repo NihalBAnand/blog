@@ -13,15 +13,15 @@ export const SITE: Site = {
 
 export const NAV_LINKS: SocialLink[] = [
   {
-    href: 'blog',
+    href: 'https://nihalbanand.github.io/blog/blog/',
     label: 'blog',
   },
   {
-    href: 'authors',
+    href: 'https://nihalbanand.github.io/blog/authors/',
     label: 'authors',
   },
   {
-    href: 'about',
+    href: 'https://nihalbanand.github.io/blog/about/',
     label: 'about',
   },
 ]
@@ -32,7 +32,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Email',
   },
   {
-    href: 'rss.xml',
+    href: 'https://nihalbanand.github.io/blog/rss.xml',
     label: 'RSS',
   },
 ]
