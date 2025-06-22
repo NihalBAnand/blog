@@ -32,7 +32,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Email',
   },
   {
-    href: '/blog/rss.xml',
+    href: 'rss.xml',
     label: 'RSS',
   },
 ]
