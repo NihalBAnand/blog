@@ -17,11 +17,11 @@ export const NAV_LINKS: SocialLink[] = [
     label: 'blog',
   },
   {
-    href: 'authors',
+    href: 'blog/authors',
     label: 'authors',
   },
   {
-    href: 'about',
+    href: 'blog/about',
     label: 'about',
   },
 ]
@@ -32,7 +32,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Email',
   },
   {
-    href: 'rss.xml',
+    href: 'blog/rss.xml',
     label: 'RSS',
   },
 ]
