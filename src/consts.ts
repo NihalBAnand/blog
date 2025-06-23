@@ -1,9 +1,9 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'intellectual-nomad',
+  title: 'all-roads',
   description:
-    'Trying, and probably failing, to find a place to settle.',
+    'An eclectic collection of stuff collected along the way.',
   href: 'https://nihalbanand.github.io/blog/',
   author: 'Nihal Anand',
   locale: 'en-US',
