@@ -44,7 +44,7 @@ const { items } = Astro.props
                 </span>
               </BreadcrumbPage>
             ) : (
-              <BreadcrumbLink href=https://nihalbanand.github.io/blog/{item.href}>
+              <BreadcrumbLink href={`https://nihalbanand.github.io/blog/${item.href}`}>
                 <span class="flex items-center gap-x-2">
                   {item.icon && (
                     <Icon name={item.icon} class="size-4 shrink-0" />
