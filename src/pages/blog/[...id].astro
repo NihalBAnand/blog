@@ -83,23 +83,23 @@ const tocSections = await getTOCSections(currentPostId)
     <div class="col-start-2">
       <Breadcrumbs
         items={[
-          { href: 'https://nihalbanand.github.io/blog/blog/', label: 'Blog', icon: 'lucide:library-big' },
+          { href: '/blog', label: 'Blog', icon: 'lucide:library-big' },
           ...(isCurrentSubpost && parentPost
             ? [
                 {
-                  href: `https://nihalbanand.github.io/blog/blog/${parentPost.id}`,
+                  href: `/blog/${parentPost.id}`,
                   label: parentPost.data.title,
                   icon: 'lucide:book-open',
                 },
                 {
-                  href: `https://nihalbanand.github.io/blog/blog/${currentPostId}`,
+                  href: `/blog/${currentPostId}`,
                   label: post.data.title,
                   icon: 'lucide:file-text',
                 },
               ]
             : [
                 {
-                  href: `https://nihalbanand.github.io/blog/blog/${currentPostId}`,
+                  href: `/blog/${currentPostId}`,
                   label: post.data.title,
                   icon: 'lucide:book-open-text',
                 },
@@ -146,7 +146,7 @@ const tocSections = await getTOCSections(currentPostId)
                     />
                     {author.isRegistered ? (
                       <Link
-                        href={`https://nihalbanand.github.io/blog/authors/${author.id}`}
+                        href={`/authors/${author.id}`}
                         underline
                         class="text-foreground"
                       >
@@ -199,7 +199,7 @@ const tocSections = await getTOCSections(currentPostId)
               post.data.tags.length > 0 &&
               post.data.tags.map((tag) => (
                 <a
-                  href={`https://nihalbanand.github.io/blog/tags/${tag}`}
+                  href={`/tags/${tag}`}
                   class={badgeVariants({ variant: 'secondary' })}
                 >
                   <Icon name="lucide:hash" class="size-3" />
